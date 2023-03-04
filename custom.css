@@ -1,0 +1,721 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    isolation: isolate;
+    
+    position: relative;
+    width: 1440px;
+    height: 1236px;
+  
+    background: #FFFFFF; 
+}
+.Header{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 1440px;
+height: 80px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 32px;
+
+    width:1280px;
+    height: 80px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+   
+    width: 1216px;
+    height: 80px;
+
+    flex: none;
+    order: 0;
+    align-content: stretch;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 0px;
+    gap: 10px;
+
+    width: 377px;
+    height: 80px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.ProLog{
+ 
+    width: 118px;
+    height: 33px;
+   
+
+    flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    
+    flex:none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.menu-1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 46px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 46px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.menu-text1{
+    width: 46px;
+    height: 24px;
+
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+cursor: pointer;
+color: #667085;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.menu-2{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+    width: 69px;
+    height: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 69px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-text2{
+    width:69px;
+    height: 24px;
+
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #667085;
+cursor: pointer;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.menu-3{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+    width: 118px;
+    height: 24px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.button-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 118px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-text3{
+    width:118px;
+    height: 24px;
+
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #667085;
+cursor: pointer;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.menu-4{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+    width: 53px;
+    height: 24px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.button-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 53px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-text4{
+    width: 53px;
+    height: 24px;
+
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+color: #667085;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.container-3{
+
+    display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 22px 0px;
+gap: 10px;
+cursor: pointer;
+width: 377px;
+height: 80px;
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+}
+
+
+.opendashboard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 165px;
+    height: 44px;
+
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button-5{
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+
+    width: 165px;
+    height: 44px;
+
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+
+    box-shadow: 0px 1px 2px
+    rgba(16,24,40,0.05);
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.dashboard-text{
+    width: 129px;
+height: 24px;
+    
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 1440px;
+    height: 860px;
+position: relative;
+top: 20px;
+    background: #f9fafb;
+
+    flex:none;
+    order:1;
+    flex-grow: 0;
+    z-index: 1;
+}
+.section{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 96px 0px;
+gap: 64px;
+
+width: 1440px;
+height: 860px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.container-4{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 32px;
+gap: 32px;
+
+width: 1280px;
+height: 156px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.content-2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+width: 1216px;
+height: 156px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.head-sup{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1024px;
+height: 156px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.heading-text{
+    width: 1024px;
+height: 72px;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 60px;
+line-height: 72px;
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: black;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.support-text{
+    width: 648px;
+height: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+position: relative;
+bottom: 50px;
+color: #667085;
+text-align: center;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+
+    width: 1280px;
+    height: 448px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#content-3{
+    width: 1216px;
+    height: 448px;
+    flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Macbook{
+    position: absolute;
+left: 300px;
+top: 400px;
+width: 800px;
+height: 450px;
+}
+
+.Social-proof{
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 96px 0px;
+
+width: 1440px;
+height: 156px;
+
+background: #F9FAFB;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+.container-6{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 32px;
+
+    width: 1280px;
+    height: 95px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.bottom-text{
+    width: 1216px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #667085;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1216px;
+    height: 48px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Logo-1{
+width: 146px;
+height: 48px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#Logo-img1{
+    position: absolute;
+    left: 0%;
+    right: 69.86%;
+    top: 4.17%;
+    bottom: 4.17%;
+    
+}
+.logo-text1{
+    position: absolute;
+   font-weight:100;
+font-size: 30px;
+bottom:38px;
+left: 142px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Logo-2{
+    width: 169px;
+height: 48px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+#Logo-img2{
+    position: absolute;
+    left: 0%;
+    right: 82.84%;
+    top: 0%;
+    bottom: 0%;
+    
+}
+
+.logo-text2{
+    position: absolute;
+   font-weight:100;
+font-size: 30px;
+bottom:38px;
+left: 372px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Logo-3{
+    width: 183px;
+    height: 48px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#Logo-img3{
+    position: absolute;
+    left: 0%;
+    right: 75.96%;
+    top: 4.17%;
+    bottom: 4.17%;
+}
+
+.logo-text3{
+    position: absolute;
+   font-weight:100;
+font-size: 30px;
+bottom:38px;
+left: 642px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Logo-4{
+    width: 160px;
+    height: 48px;
+    flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+#Logo-img4{
+    left: 0%;
+right: 72.5%;
+top: 4.17%;
+bottom: 4.17%;
+
+}
+
+.logo-text4{
+    position: absolute;
+   font-weight:100;
+font-size: 30px;
+bottom:38px;
+left: 922px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Logo-5{
+    width: 187px;
+height: 48px;
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+#Logo-img5{
+    left: 0%;
+    right: 76.47%;
+    top: 4.17%;
+    bottom: 4.17%;
+}
+
+.logo-text5{
+    position: absolute;
+   font-weight:100;
+font-size: 30px;
+bottom:38px;
+left:1172px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
